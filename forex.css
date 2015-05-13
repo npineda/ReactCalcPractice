@@ -1,0 +1,35 @@
+.grid {
+  display: -webkit-flex;
+  display: flex;
+}
+.col {
+	background: #ccc;
+  padding: 30px;
+}
+.fluid {
+	flex: 1;
+ border-style: solid;
+    border-color: Black;
+}
+
+.input-table{
+	width: 100%;
+}
+
+tr.spaceUnder > td
+{
+  padding-bottom: 1em;
+}
+
+.table-header
+{
+	text-align:left;
+	display:block;
+	margin-bottom:15px;
+}
+
+.custom-h2
+{
+	font-size:24px;
+	color:blue;
+}
